@@ -69,7 +69,7 @@ const About = () => {
                             <div className="absolute inset-0 bg-gradient-to-br from-ice-200 to-mint-200 rounded-3xl blur-3xl opacity-30"></div>
                             <div className="relative bg-white rounded-3xl shadow-2xl p-8 border border-slate-200">
                                 <img
-                                    src="/src/images/facewash in Circle.png"
+                                    src="/images/facewash in Circle.png"
                                     alt="ICE CONE Product"
                                     className="w-full h-auto object-contain"
                                 />
@@ -155,7 +155,7 @@ const About = () => {
 
                     <div className="bg-gradient-to-br from-slate-50 to-ice-50 rounded-3xl p-8 md:p-12 border border-slate-200">
                         <img
-                            src="/src/images/Description.png"
+                            src="/images/Description.png"
                             alt="Product Description"
                             className="w-full h-auto rounded-2xl shadow-lg"
                         />

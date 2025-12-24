@@ -21,7 +21,7 @@ const Navigation = () => {
                     <Link to="/" className="flex items-center gap-3 group">
                         <div className="w-12 h-12 rounded-full bg-gradient-to-br from-ice-400 to-mint-400 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                             <img
-                                src="/src/images/ICE CONE LOGO.png"
+                                src="/images/ICE CONE LOGO.png"
                                 alt="ICE CONE"
                                 className="w-10 h-10 object-contain"
                             />
@@ -38,8 +38,8 @@ const Navigation = () => {
                                 key={link.path}
                                 to={link.path}
                                 className={`relative text-sm font-medium transition-colors duration-300 ${isActive(link.path)
-                                        ? 'text-ice-600'
-                                        : 'text-slate-600 hover:text-ice-600'
+                                    ? 'text-ice-600'
+                                    : 'text-slate-600 hover:text-ice-600'
                                     }`}
                             >
                                 {link.name}
@@ -88,8 +88,8 @@ const Navigation = () => {
                                 to={link.path}
                                 onClick={() => setIsMenuOpen(false)}
                                 className={`block px-4 py-2 rounded-lg transition-colors ${isActive(link.path)
-                                        ? 'bg-ice-100 text-ice-600 font-medium'
-                                        : 'text-slate-600 hover:bg-ice-50'
+                                    ? 'bg-ice-100 text-ice-600 font-medium'
+                                    : 'text-slate-600 hover:bg-ice-50'
                                     }`}
                             >
                                 {link.name}

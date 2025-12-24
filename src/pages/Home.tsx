@@ -94,7 +94,7 @@ const Home = () => {
               {/* Product */}
               <div className="relative z-10 animate-float">
                 <img
-                  src="/src/images/facewash.png"
+                  src="/images/facewash.png"
                   alt="ICE CONE Vitamin C Face Wash"
                   className="w-full h-auto object-contain drop-shadow-2xl"
                 />
@@ -212,7 +212,7 @@ const Home = () => {
             <div className="sticky top-24">
               <div className="relative bg-gradient-to-br from-slate-50 to-ice-50 rounded-3xl p-12">
                 <img
-                  src="/src/images/facewash in Circle.png"
+                  src="/images/facewash in Circle.png"
                   alt="ICE CONE Product"
                   className="w-full h-auto object-contain"
                 />
@@ -236,8 +236,8 @@ const Home = () => {
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     className={`px-6 py-3 font-semibold transition-all ${activeTab === tab.id
-                        ? 'text-ice-600 border-b-2 border-ice-600'
-                        : 'text-slate-500 hover:text-slate-700'
+                      ? 'text-ice-600 border-b-2 border-ice-600'
+                      : 'text-slate-500 hover:text-slate-700'
                       }`}
                   >
                     {tab.label}
@@ -343,7 +343,7 @@ const Home = () => {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/10">
             <img
-              src="/src/images/beforeafter.png"
+              src="/images/beforeafter.png"
               alt="Before and After Results"
               className="w-full h-auto rounded-2xl"
             />

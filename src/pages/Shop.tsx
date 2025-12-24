@@ -71,7 +71,7 @@ const Shop = () => {
                                 {/* Main product image */}
                                 <div className="relative bg-white rounded-3xl p-12 shadow-2xl border border-slate-200">
                                     <img
-                                        src="/src/images/Vitamin C Facewash.png"
+                                        src="/images/Vitamin C Facewash.png"
                                         alt="ICE CONE Vitamin C Face Wash"
                                         className="w-full h-auto object-contain"
                                     />
